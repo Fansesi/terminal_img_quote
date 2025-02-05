@@ -1,0 +1,6 @@
+*.jpg
+*.webp
+*.jpeg
+*.png
+__pycache__
+_*.py

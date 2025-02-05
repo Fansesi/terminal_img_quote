@@ -1,0 +1,16 @@
+{
+    "CATEGORY": "example_category",
+    "QUOTE": "RANDOM",
+    "path": "example_img.png",
+    "threshold": 15,
+    "full": false,
+    "color": true,
+    "color-bg": false,
+    "braille": true,
+    "dither": false,
+    "width": 50,
+    "height": 9,
+    "xoffset": 0,
+    "yoffset": 0,
+    "transparent": true
+}

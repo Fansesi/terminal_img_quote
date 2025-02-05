@@ -1,0 +1,14 @@
+{
+    "path": "",  
+    "threshold": 15,
+    "full": false,
+    "color": true,
+    "color-bg": false,
+    "braille": true,
+    "dither": false,
+    "width": 30,
+    "height": -1,
+    "xoffset": 0,
+    "yoffset": 0,
+    "transparent": true
+}

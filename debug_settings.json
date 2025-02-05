@@ -1,0 +1,13 @@
+{
+    "CATEGORY": "example_category",
+    "path": "example_img.png",
+    "threshold": 15,
+    "full": false,
+    "color": true,
+    "color-bg": false,
+    "braille": true,
+    "dither": false,
+    "width": 100,
+    "xoffset": "center",
+    "yoffset": 2
+}

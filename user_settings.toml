@@ -1,0 +1,19 @@
+[Displayer]
+name="ascii-image-converter" # ascii-image-converter, viu
+
+# ascii-image-converter/viu is enough if it's an already executable command
+# no need for the full path
+bin_path="ascii-image-converter"
+
+[Text]
+location="right" # down, right, (left and up is not supported yet)
+box=true
+corner_type="rounded" # rounded, flat
+padding_x=8 # padding in x axis from image/terminal borders
+padding_y=2 # padding in y axis from image/terminal borders
+quote_width_multiplier=2 # quote_width = img_width * quote_width_multiplier
+
+[Other]
+# folders starting with _ or . are already ignored
+# don't forget to remove "example_category" below if you would like to run that
+excluded_folders=["src", "example_category"] 
