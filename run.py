@@ -47,7 +47,8 @@ def clean_find_categories(categories) -> List[str]:
     # __pycache__ is problematic for some reason?
     if "__pycache__" in categories:
         categories.remove("__pycache__")
-
+    if "src" in categories:
+        categories.remove("src")
     return categories
 
 

@@ -88,6 +88,7 @@ class Category:
             + list(Path(directory).rglob("*.jpeg"))
             + list(Path(directory).rglob("*.png"))
             + list(Path(directory).rglob("*.webp"))
+            + list(Path(directory).rglob("*.gif"))
         )
 
         with open("default_img_settings.json", "r") as f:
@@ -160,9 +161,12 @@ class Displayer:
         else:
             max_message_length = quote_width
 
-        # Wrap the message to fit within the allowed width
-        wrapped_message = textwrap.fill(quote, width=max_message_length - 2)
-
+        try:
+            # Wrap the message to fit within the allowed width
+            wrapped_message = textwrap.fill(quote, width=max_message_length - 2)
+        except ValueError:
+            exit(0)
+          
         border = "─" * (max_message_length)
 
         if self.user_settings["Text"]["corner_type"] == "flat":
