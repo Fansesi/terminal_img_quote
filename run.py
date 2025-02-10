@@ -35,8 +35,8 @@ def get_static_settings():
         return json.load(f)
 
 
-def clean_find_categories(categories) -> List[str]:
-    for name in categories:
+def clean_find_categories(categories: List[str]) -> List[str]:
+    for name in categories.copy():
         if (
             name[0] == "_"
             or name[0] == "."
@@ -44,11 +44,6 @@ def clean_find_categories(categories) -> List[str]:
         ):
             categories.remove(name)
 
-    # __pycache__ is problematic for some reason?
-    if "__pycache__" in categories:
-        categories.remove("__pycache__")
-    if "src" in categories:
-        categories.remove("src")
     return categories
 
 

@@ -4,6 +4,13 @@
 
 Display a random image and a related quote in a beautiful way. 
 
+## Examples
+![Example Video](imgs/ex_video.webm)
+
+![Example Image 1](imgs/ex_1.png)
+
+![Example Image 2](imgs/ex_2.png)
+
 ## Requirements
 * For image viewing, currently [ascii-image-converter](https://github.com/TheZoraiz/ascii-image-converter/issues?q=is%3Aissue%20state%3Aclosed%20terminal) or [viu](https://github.com/atanunq/viu) are supported. You may download their binaries easily. 
 * python 3.11 or higher (because of [tomllib](https://docs.python.org/3/library/tomllib.html)). No other python dependencies.

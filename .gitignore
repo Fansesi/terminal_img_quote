@@ -2,5 +2,8 @@
 *.webp
 *.jpeg
 *.png
+*.gif
 __pycache__
 _*.py
+!imgs/*.png
+!imgs/*.webm
