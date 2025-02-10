@@ -5,7 +5,7 @@
 Display a random image and a related quote in a beautiful way. 
 
 ## Examples
-![Example Video](imgs/ex_video.webm)
+![Example Video](imgs/ex_video.mp4)
 
 ![Example Image 1](imgs/ex_1.png)
 
